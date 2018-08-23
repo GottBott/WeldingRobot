@@ -1,0 +1,64 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red47\green180\blue29;\red159\green160\blue28;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs22 \cf0 \CocoaLigature0 sleep 10\
+vlc http://192.168.0.180:8083/?action\cf2 =\cf0 stream \cf2 &\cf0 \
+sleep 20\
+xdotool mousemove 30 30\
+xdotool click 1\
+sleep 1\
+xdotool mousemove 30 130\
+xdotool click 1\
+sleep 5\
+xdotool mousemove 230 140\
+sleep 2\
+xdotool click 1\
+sleep 2\
+xdotool key BackSpace\
+sleep 2\
+xdotool key 
+\f1\b \cf3 '0'
+\f0\b0 \cf0 \
+sleep 5\
+xdotool mousemove 440 420\
+sleep 1\
+xdotool click 1\
+sleep 15\
+vlc http://192.168.0.181:8083/?action\cf2 =\cf0 stream \cf2 &\cf0 \
+sleep 20\
+xdotool mousemove 30 30\
+xdotool click 1\
+sleep 2\
+xdotool mousemove 30 130\
+xdotool click 1\
+sleep 5\
+xdotool mousemove 230 140\
+sleep 2\
+xdotool click 1\
+sleep 2\
+xdotool key BackSpace\
+sleep 2\
+xdotool key 
+\f1\b \cf3 '1'
+\f0\b0 \cf0 \
+sleep 5\
+xdotool mousemove 440 420\
+sleep 2\
+xdotool click 1\
+sleep 20\
+xdotool mousemove 10 10\
+xdotool click 1\
+xdotool mousemove 60 80\
+sleep 3\
+xdotool click 1\
+sleep 2\
+xdotool mousemove 700 80\
+sleep 5\
+xdotool click 1\
+xdotool mousemove 40 10\
+xdotool click 1\
+sleep 2\
+python controlBox.py \cf2 &}
